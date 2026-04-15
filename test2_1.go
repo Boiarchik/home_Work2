@@ -7,7 +7,7 @@ import (
 	"strings"
 )
 
-func main() {
+func main2() {
 	fmt.Print("Введите строку: ")
 	reader := bufio.NewReader(os.Stdin)
 	input, _ := reader.ReadString('\n')
